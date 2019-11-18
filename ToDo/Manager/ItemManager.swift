@@ -20,8 +20,10 @@ class ItemManager {
     
     func add(_ item: ToDoItem) {
         //when the item is added it increases the toDoCount by 1 and appends the item to the toDoItems array
-//        toDoCount += 1
-        toDoItems.append(item)
+        //        toDoCount += 1
+        if !toDoItems.contains(item) {
+            toDoItems.append(item)
+        }
     }
     
     func item(at index: Int) -> ToDoItem {
@@ -30,8 +32,8 @@ class ItemManager {
     
     func checkItem(at index: Int) {
         //when the user checks an item the doneCount increases by 1 and the toDoCount decreases by 1
-//        toDoCount -= 1
-//        doneCount += 1
+        //        toDoCount -= 1
+        //        doneCount += 1
         
         //the item is then removed from toDoItems array at the passed in index then appended to the doneItems array
         let item = toDoItems.remove(at: index)
@@ -40,5 +42,10 @@ class ItemManager {
     
     func doneItem(at index: Int) -> ToDoItem {
         return doneItems[index]
+    }
+    
+    func removeAll() {
+        toDoItems.removeAll()
+        doneItems.removeAll()
     }
 }
