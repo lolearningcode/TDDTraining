@@ -11,6 +11,7 @@
 		EC30ECDC2382ED03003A0554 /* ItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC30ECDB2382ED03003A0554 /* ItemListViewController.swift */; };
 		EC30ECE123834D49003A0554 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC30ECE023834D49003A0554 /* Enums.swift */; };
 		EC30ECE4238352B6003A0554 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC30ECE3238352B6003A0554 /* ItemCell.swift */; };
+		EC8D99462384441A00CAD2D6 /* ItemCellTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8D99452384441A00CAD2D6 /* ItemCellTest.swift */; };
 		ECD0E6332380847C001A7CBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD0E6322380847C001A7CBB /* AppDelegate.swift */; };
 		ECD0E6352380847C001A7CBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD0E6342380847C001A7CBB /* SceneDelegate.swift */; };
 		ECD0E63A2380847C001A7CBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECD0E6382380847C001A7CBB /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 		EC30ECDB2382ED03003A0554 /* ItemListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListViewController.swift; sourceTree = "<group>"; };
 		EC30ECE023834D49003A0554 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		EC30ECE3238352B6003A0554 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		EC8D99452384441A00CAD2D6 /* ItemCellTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCellTest.swift; sourceTree = "<group>"; };
 		ECD0E62F2380847C001A7CBB /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECD0E6322380847C001A7CBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECD0E6342380847C001A7CBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 				ECD0E65B2380B3F7001A7CBB /* LocationTests.swift */,
 				ECD0E65D238122D0001A7CBB /* ItemManagerTests.swift */,
 				EC30ECD92382EC0C003A0554 /* ItemListViewControllerTest.swift */,
+				EC8D99452384441A00CAD2D6 /* ItemCellTest.swift */,
 			);
 			path = ToDoTests;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 			files = (
 				ECD0E65E238122D0001A7CBB /* ItemManagerTests.swift in Sources */,
 				ECD0E65C2380B3F7001A7CBB /* LocationTests.swift in Sources */,
+				EC8D99462384441A00CAD2D6 /* ItemCellTest.swift in Sources */,
 				EC30ECDA2382EC0C003A0554 /* ItemListViewControllerTest.swift in Sources */,
 				ECD0E6552380AAAA001A7CBB /* ToDoItemTests.swift in Sources */,
 			);
