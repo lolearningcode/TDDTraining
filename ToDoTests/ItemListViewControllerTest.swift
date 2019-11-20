@@ -12,6 +12,7 @@ import XCTest
 class ItemListViewControllerTest: XCTestCase {
     
     var sut: ItemListViewController!
+    var controller: ItemListViewController!
     
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -82,6 +83,7 @@ class ItemListViewControllerTest: XCTestCase {
 }
 
 extension ItemListViewControllerTest {
+    
     class MockTableView: UITableView {
         var cellGotDequeued = false
         override func dequeueReusableCell( withIdentifier identifier: String,
@@ -92,18 +94,17 @@ extension ItemListViewControllerTest {
         
         class func mockTableView(withDataSource dataSource: UITableViewDataSource) -> MockTableView {
             let mockTableView = MockTableView(frame: CGRect(x: 0, y: 0, width: 320, height: 480), style: .plain)
-            mockTableView.dataSource = dataSource
+            let viewController = ItemListViewController()
+            mockTableView.dataSource = viewController
             mockTableView.register(MockItemCell.self, forCellReuseIdentifier: "ItemCell")
             return mockTableView
         }
     }
     
-    
-    
     class MockItemCell : ItemCell {
         var catchedItem: ToDoItem?
         
-        override func configCell(with item: ToDoItem) {
+        override func configCell(with item: ToDoItem, checked: Bool = false) {
             catchedItem = item
         }
     }

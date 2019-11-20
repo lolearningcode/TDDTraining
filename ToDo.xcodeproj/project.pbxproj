@@ -12,6 +12,8 @@
 		EC30ECE123834D49003A0554 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC30ECE023834D49003A0554 /* Enums.swift */; };
 		EC30ECE4238352B6003A0554 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC30ECE3238352B6003A0554 /* ItemCell.swift */; };
 		EC8D99462384441A00CAD2D6 /* ItemCellTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8D99452384441A00CAD2D6 /* ItemCellTest.swift */; };
+		EC8D99482384596900CAD2D6 /* DetailViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8D99472384596900CAD2D6 /* DetailViewControllerTests.swift */; };
+		EC8D994A23845A0600CAD2D6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8D994923845A0600CAD2D6 /* DetailViewController.swift */; };
 		ECD0E6332380847C001A7CBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD0E6322380847C001A7CBB /* AppDelegate.swift */; };
 		ECD0E6352380847C001A7CBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD0E6342380847C001A7CBB /* SceneDelegate.swift */; };
 		ECD0E63A2380847C001A7CBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECD0E6382380847C001A7CBB /* Main.storyboard */; };
@@ -41,6 +43,8 @@
 		EC30ECE023834D49003A0554 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		EC30ECE3238352B6003A0554 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		EC8D99452384441A00CAD2D6 /* ItemCellTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCellTest.swift; sourceTree = "<group>"; };
+		EC8D99472384596900CAD2D6 /* DetailViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewControllerTests.swift; sourceTree = "<group>"; };
+		EC8D994923845A0600CAD2D6 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		ECD0E62F2380847C001A7CBB /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECD0E6322380847C001A7CBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECD0E6342380847C001A7CBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +85,7 @@
 			children = (
 				EC30ECDB2382ED03003A0554 /* ItemListViewController.swift */,
 				EC30ECE3238352B6003A0554 /* ItemCell.swift */,
+				EC8D994923845A0600CAD2D6 /* DetailViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -137,6 +142,7 @@
 				ECD0E65D238122D0001A7CBB /* ItemManagerTests.swift */,
 				EC30ECD92382EC0C003A0554 /* ItemListViewControllerTest.swift */,
 				EC8D99452384441A00CAD2D6 /* ItemCellTest.swift */,
+				EC8D99472384596900CAD2D6 /* DetailViewControllerTests.swift */,
 			);
 			path = ToDoTests;
 			sourceTree = "<group>";
@@ -259,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC8D994A23845A0600CAD2D6 /* DetailViewController.swift in Sources */,
 				EC30ECE4238352B6003A0554 /* ItemCell.swift in Sources */,
 				EC30ECDC2382ED03003A0554 /* ItemListViewController.swift in Sources */,
 				ECD0E6332380847C001A7CBB /* AppDelegate.swift in Sources */,
@@ -279,6 +286,7 @@
 				EC8D99462384441A00CAD2D6 /* ItemCellTest.swift in Sources */,
 				EC30ECDA2382EC0C003A0554 /* ItemListViewControllerTest.swift in Sources */,
 				ECD0E6552380AAAA001A7CBB /* ToDoItemTests.swift in Sources */,
+				EC8D99482384596900CAD2D6 /* DetailViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
